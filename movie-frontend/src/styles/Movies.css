@@ -1,0 +1,28 @@
+.movies-page {
+  padding: 20px;
+}
+
+.movies-page h1 {
+  margin-bottom: 20px;
+}
+
+.movies-container {
+  display: flex;
+  gap: 15px; /* Space between cards */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding-bottom: 10px;
+  scrollbar-width: thin; /* For Firefox */
+}
+
+.movies-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.movies-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+
+.movies-container::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0.1);
+}

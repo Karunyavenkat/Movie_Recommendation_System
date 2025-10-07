@@ -1,0 +1,135 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-logo span {
+  color: #ff4c4c;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #ff4c4c;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-form input {
+  border: none;
+  padding: 6px 10px;
+  background: transparent;
+  color: #fff;
+  outline: none;
+  width: 200px;
+}
+
+.search-btn {
+  background-color: #ff4c4c;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn:hover {
+  background-color: #e04343;
+}
+
+.btn-login {
+  background-color: #ff4c4c;
+  border: none;
+  padding: 6px 15px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-login:hover {
+  background-color: #e04343;
+}
+
+.profile-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4a90e2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  min-width: 150px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  z-index: 100;
+}
+
+.dropdown-menu p {
+  margin: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.dropdown-menu button {
+  width: 100%;
+  padding: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  color: #e74c3c;
+}
+
+.dropdown-menu button:hover {
+  background: #f8f8f8;
+}
